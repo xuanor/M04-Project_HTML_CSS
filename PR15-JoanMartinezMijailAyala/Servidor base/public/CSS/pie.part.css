@@ -1,0 +1,9 @@
+div {
+    display: flex;
+    background: black;
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+}
+div a img{
+    height: 6rem;
+}
