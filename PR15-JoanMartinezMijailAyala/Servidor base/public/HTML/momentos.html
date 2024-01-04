@@ -3,28 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
+    <script src="../JS/shadowPartial.js"></script>
     <title>Avengers | Momentos</title>
     <link rel="icono_web" href="../media/icono_vengadores.ico">
 </head>
 <body>
     <header>
-        <!--Menu to the other webs in the web-->
-        <nav>
-            <a href="index.html">Main</a>
-            <a href="personajes.html">Personajes</a>
-            <a href="momentos.html">Momentos</a>
-            <a href="productos.html">Productos</a>
-            <a href="contact.html">Contact</a>
-        </nav>
+        <shadow-partial data-html="../HTML/menu.part.html" data-css="../CSS/menu.part.css"></shadow-partial>
     </header>
      <!--Titulo-->
     <h1>Mejores momentos</h1>
 
-     <!--Presentacion de personajes-->
+     <!--Presentacion de momentos-->
     <div>
         <ul>
             <li>
-                <h2>La familia de Ojo de Halcón desaparece en el viento</h2>
+                <h2 id='mom_ojo_alcon'>La familia de Ojo de Halcón desaparece en el viento</h2>
                 <img src="../media/momento_ojo_alc.png" alt="momento_ojo_alc">
                 <ol>
                     <p>Damos inicio a nuestra lista con la escena de apertura desgarradora de la película donde la familia de Ojo de Halcón se convierte </p>
@@ -34,7 +28,7 @@
                 </ol>
             </li>
             <li>
-                <h2> Thor apunta a la cabeza</h2>
+                <h2 id='#mom_apun_cab'> Thor apunta a la cabeza</h2>
                 <img src="../media/momento_apun_cabeza.png" alt="momento_apun_cabeza">
                 <ol>
                     <p>No os preocupéis, llegaremos a los emocionantes momentos superheroicos en un minuto, pero primero tenemos otra decepción. El </p>
@@ -45,7 +39,7 @@
                 </ol>
             </li>
             <li>
-                <h2>El robo del cetro de Capitán América</h2>
+                <h2 id='#mom_robo_cet'>El robo del cetro de Capitán América</h2>
                 <img src="../media/momento_robo_cetro.png" alt="momento_robo_cetro">
                 <ol>
                     <p>Hay que valorar al Capitán América durante toda la secuencia en la que se escapa con el cetro de Loki. Desde subvertir las expectativas en el </p>
@@ -76,7 +70,7 @@
     </div>
 
    <!--Pie de pagina-->
-   <footer>
+   <footer id="prueba">
         <br>
         <img src="../media/logo_vengadores.png" alt="logo_vengadores">
          <!--Informacion adicional-->

@@ -3,19 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
+    <script src="../JS/shadowPartial.js"></script>
     <title>Avengers | Personajes</title>
+    <!--** Fix-->
     <link rel="icono_web" href="../media/icono_vengadores.ico">
 </head>
 <body>
     <header>
-        <!--Menu to the other webs in the web-->
-        <nav>
-            <a href="index.html">Main</a>
-            <a href="personajes.html">Personajes</a>
-            <a href="momentos.html">Momentos</a>
-            <a href="productos.html">Productos</a>
-            <a href="contact.html">Contact</a>
-        </nav>
+        <shadow-partial data-html="../HTML/menu.part.html" data-css="../CSS/menu.part.css"></shadow-partial>
     </header>
      <!--Titulo-->
     <h1>Personajes</h1>
@@ -24,7 +19,7 @@
     <div>
         <ul>
             <li>
-                <h2>Spiderman</h2>
+                <h2 id='spiderman'>Spiderman</h2>
                 <img src="../media/spiderman.png" alt="foto_spiderman">
                 <ol>
                     <h2>Caracterisitcas</h2>
@@ -34,7 +29,7 @@
                 </ol>
             </li>
             <li>
-                <h2>Ironman</h2>
+                <h2 id='ironman'>Ironman</h2>
                 <img src="../media/ironman.png" alt="foto_ironman">
                 <ol>
                     <h2>Caracterisitcas</h2>
@@ -44,7 +39,7 @@
                 </ol>
             </li>
             <li>
-                <h2>Hulk</h2>
+                <h2 id='hulk'>Hulk</h2>
                 <img src="../media/hulk.png" alt="foto_hulk">
                 <ol>
                     <h2>Caracterisitcas</h2>
