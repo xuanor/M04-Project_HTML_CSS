@@ -46,10 +46,6 @@ section{
   text-align: center;
 }
 
-#pers_descripcion {
-  text-align: right;
-}
-
 /* Pagina contacto */
 input, button {
  font-size: 10px;
