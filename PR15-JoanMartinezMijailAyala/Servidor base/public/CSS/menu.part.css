@@ -1,6 +1,6 @@
 
 #cabezera {
-    display: flex;  
+    display: flexbox;  
   }
 
 #cabezera a img{
@@ -11,6 +11,7 @@
     margin: 10 px;
     padding: 10px;
     background-color: #333333;
+    text-align: justify;
 }
 nav a {
     font-family: 'Titillium Web', sans-serif;

@@ -14,22 +14,39 @@
         <shadow-partial data-html="../HTML/menu.part.html" data-css="../CSS/menu.part.css"></shadow-partial>
     </header>
 
-     <!--Titulo-->
-    <h1>Personajes</h1>
-
      <!--Presentacion de personajes-->
-    <div>
-        <ul>
-            <li>
-                <h2 id='spiderman'>Spiderman</h2>
+    <div id="cont_personajes">
+        
+        <!--Titulo-->
+        <h1>Personajes</h1>
+
+        <!--Spiderman-->
+        <section id="spideman">
+            <!--Imagen-->
+            <section>
                 <img src="../media/spiderman.png" alt="foto_spiderman">
+            </section>
+            <!--Nombre-->
+            <section id="pers_nombre">
+                <h2>Spiderman</h2>
+            </section>
+            <!--Habilidades-->
+            <section id="pers_habilidades">
                 <ol>
-                    <h2>Caracterisitcas</h2>
+                    <h3>Caracterisitcas</h3>
                     <li>Veloz</li>
                     <li>Agil</li>
                     <li>Aracnido</li>
                 </ol>
-            </li>
+            </section>
+            <!--Descripcion-->
+            <section>
+                <h3>Descripcion</h3>
+                <p></p>
+            </section>
+        </section>
+
+        <ul>
             <li>
                 <h2 id='ironman'>Ironman</h2>
                 <img src="../media/ironman.png" alt="foto_ironman">
@@ -75,19 +92,7 @@
 
    <!--Pie de pagina-->
    <footer>
-        <br>
-        <a href="index.html"><img src="../media/logo_vengadores.png" alt="logo_vengadores"></a>
-         <!--Informacion adicional-->
-         <h6>Joan Martinez</h6>
-         <h6>Mijail Ayala</h6>
-        <h6>Calle Felipe almedrez N° 124, Madrid, ESPAÑA</h6>
-        <h6>931234567</h6>
-        <h6>mymail@mail.com</h6>
-        <!-- Enlaces a las redes sociales-->
-        <a href="https://www.instagram.com/" target="_blank"><img src="../media/ig.png" alt="Logo_ig"></a>
-        <a href="https://www.facebook.com/?locale=es_ES" target="_blank"><img src="../media/facebook.png" alt="Logo_facebook"></a>
-        <a href="https://twitter.com/?lang=es"  target="_blank"><img src="../media/x.png" alt="Logo_x"></a>
-            
-     </footer>
+        <shadow-partial data-html="../HTML/pie.part.html" data-css="../CSS/pie.part.css"></shadow-partial>
+    </footer>
 </body>
 </html>
