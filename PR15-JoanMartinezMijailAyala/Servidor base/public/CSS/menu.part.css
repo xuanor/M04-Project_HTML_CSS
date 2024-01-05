@@ -1,26 +1,27 @@
 
 #cabezera {
     display: flexbox;  
-  }
-
-#cabezera a img{
-    height: 6rem;
 }
+
+    #cabezera a img{
+        height: 3rem;
+    }
 
 #navegador {
     margin: 10 px;
     padding: 10px;
     background-color: #333333;
     text-align: justify;
+    display: flex;
 }
-nav a {
-    font-family: 'Titillium Web', sans-serif;
-    font-size: 1rem;
-    color: #ffffff;
-    text-decoration: none;
-}
+    nav a {
+        font-family: 'Titillium Web', sans-serif;
+        font-size: 1rem;
+        color: #ffffff;
+        text-decoration: none;
+    }
 
-nav a:hover {
-    color: rgb(203, 115, 0);
-}
-    
+    nav a:hover {
+        color: rgb(203, 115, 0);
+    }
+        
