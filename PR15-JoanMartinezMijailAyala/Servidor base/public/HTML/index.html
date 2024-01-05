@@ -14,73 +14,67 @@
         <shadow-partial data-html="../HTML/menu.part.html" data-css="../CSS/menu.part.css"></shadow-partial>
     </header>
     
-      <!--Titulo-->
-      <h1>Personajes</h1>
+    <!--Crear modelo de cajas diferente para inicio-->
 
-     <!--Personajes destacados-->
-    <div>
-            <ul>
-                <li>
-                    <h2>Spiderman</h2>
-                    <a href="personajes.html"><img src="../media/spiderman.png" alt="foto_spiderman"></a>
-                </li>
-                <li>
-                    <h2>Ironman</h2>
-                    <a href="personajes.html"><img src="../media/ironman.png" alt="foto_ironman"></a>
-                <li>
-                    <h2>Hulk</h2>
-                    <a href="personajes.html#hulk"><img src="../media/hulk.png" alt="foto_hulk"></a>
-                </li>
-                <li>
-    </div>
-
-    <!--Momentos destacados-->
-
-     <!--Titulo-->
-    <h1>Mejores momentos</h1>
-
-    <!--Presentacion de momentos-->
-    <div>
-        <ul>
-            <li>
-                <h2>La familia de Ojo de Halcón desaparece en el viento</h2>
-                <a href="momentos.html"><img src="../media/momento_ojo_alc.png" alt="momento_ojo_alc"></a>
-                
-                
-            </li>
-            <li>
-                <h2> Thor apunta a la cabeza</h2>
-                
-                <a href="momentos.html"><img src="../media/momento_apun_cabeza.png" alt="momento_apun_cabeza"></a>
-            </li>
-            <li>
-                <h2>El robo del cetro de Capitán América</h2>
-                <a href="momentos.html"><img src="../media/momento_robo_cetro.png" alt="momento_robo_cetro"></a>
-            </li>
-         </ul>
-    </div>
-
-    <!--Productos destacados-->
+    <div class="padre" id="fondo_inicio">
+        <div class="titulo">
+            <h1>Inicio</h1>
+        </div>
     
-    <!--Titulo-->
-    <h1>Productos</h1>
+        <div class="contenido">
+            <section class="card">
 
-    <!--Presentacion de personajes-->
-   <div>
-       <ul>
-           <li>
-               <h2>Llavero Marvel Los Vengadores Logo Dorado</h2>
-               <a href="productos.html"><img src="../media/llavero.jpg" alt="llavero"></a>
-           </li>
-           <li>
-               <h2>Alfombrilla para ratón XL Marvel Comics Avengers</h2>
-               <a href="productos.html"><img src="../media/alfombrilla.jpg" alt="alfombrilla"></a>
-               
-           </li>
-           <li>
-               <h2>Bolsa De Almuerzo Marvel Vengadores Logo </h2>
-               <a href="productos.html"><img src="../media/bolsa-almuerzo.jpg" alt="bolsa-almuerzo">  </a>
-           </li>
+                <!--Personajes destacados-->
+                <div class="inicio_pers">
+                    <a href="personajes.html#spiderman"><img src="../media/spiderman.png" alt="foto_spiderman"></a>
+                </div>
+
+                <div class="inicio_pers">
+                    <a href="personajes.html#ironman"><img src="../media/ironman.png" alt="foto_ironman"></a>
+                </div>
+                
+                <div class="inicio_pers"> 
+                    <a href="personajes.html#hulk"><img src="../media/hulk.png" alt="foto_hulk"></a>         
+                </div>
+            </section>
+
+            <!--Momentos destacados-->
+            <section class="card"  id="card_inicio_mom">
+                <div class="cajita" class="inicio_mom">
+                    <a href="momentos.html"><img src="../media/inicio_momento_ojo_alc.png" alt="momento_ojo_alc"></a>
+                    <h2>TOP 1</h2>
+                </div>
+                        
+                <div class="cajita" class="inicio_mom">  
+                    <a href="momentos.html"><img src="../media/inicio_momento_apun_cabeza.png" alt="momento_apun_cabeza"></a>
+                    <h2>TOP 2</h2>
+                </div>
+
+                <div class="cajita" class="inicio_mom">
+                    <a href="momentos.html"><img src="../media/inicio_momento_robo_cetro.png" alt="momento_robo_cetro"></a>
+                    <h2>TOP 3</h2>
+                </div>
+            </section>
+
+            <!--Productos destacados-->
+            <section class="card">
+                <div>
+                    <h2>Llavero Marvel Los Vengadores Logo Dorado</h2>
+                    <a href="productos.html"><img src="../media/llavero.jpg" alt="llavero"></a>
+                </div>
+
+                <div>
+                    <h2>Alfombrilla para ratón XL Marvel Comics Avengers</h2>
+                    <a href="productos.html"><img src="../media/alfombrilla.jpg" alt="alfombrilla"></a>
+                </div>
+                
+                <div>
+                    <h2>Bolsa De Almuerzo Marvel Vengadores Logo </h2>
+                    <a href="productos.html"><img src="../media/bolsa-almuerzo.jpg" alt="bolsa-almuerzo"></a>
+                </div>
+            </section>
+            
+        </div>
     </div>
 
     <!--Pie de pagina-->
