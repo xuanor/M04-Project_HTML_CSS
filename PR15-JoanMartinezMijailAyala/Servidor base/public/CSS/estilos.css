@@ -12,12 +12,6 @@ header {
   top: 0;
 }
 
-body {
- background: gray;
- color: black;
- font-family: 'Titillium Web', sans-serif;
-}
-
 ul li {
   padding: 1rem;
   list-style: none;
@@ -27,20 +21,35 @@ ol li {
   padding: 0.25rem;
 }
 
-/* Pagina personajes */
+/* Pagina personajes ** */
 .padre {
-  padding: 3rem;
-  justify-content: center;
+  background-image: url("../media/momento_unidos.png");
+  /*filter: blur(5px);*/
+  color: black;
+  font-family: 'Titillium Web', sans-serif;
 }
+  
+  .contenido {
+    margin: 0rem 5rem 0rem 5rem;
+    padding-top: 2rem;
+    background-color: rgb(119, 119, 119);
+    border-radius: 16px;
+  }
+
+  .titulo {
+    background-color: rgb(175, 175, 175);
+    width: 100%;
+  }
 
   .pers_card {
-      display: flex;
-      flex-flow: row wrap;
-      margin: 2rem 5rem 2rem 5rem ;
-      padding-bottom: 5rem;
-      background-color: rgb(175, 175, 175);
-      text-align: left;
-      border-radius: 16px;
+    flex: 3;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0rem 5rem 2rem 5rem ;
+    padding-bottom: 5rem;
+    background-color: rgb(175, 175, 175);
+    text-align: left;
+    border-radius: 16px;
   }
 
     section div {
@@ -52,7 +61,7 @@ ol li {
       margin-bottom: 1rem;
     }
     section div img {
-        height: 550px;
+        height: 450px;
     }
 
 
