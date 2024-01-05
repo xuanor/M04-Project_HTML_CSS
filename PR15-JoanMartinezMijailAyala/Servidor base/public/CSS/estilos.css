@@ -76,7 +76,7 @@ ol li {
       
      
     }
-    .pers_habilidades {
+    .skills {
       margin-right: 0.5rem;
       padding: 3rem 3rem 6rem 3rem;
       flex: 0.5;
@@ -94,13 +94,17 @@ ol li {
     }
 
     #fondo-pers {
-      background-image: url("../media/momento_unidos.png");
+      background-image: url("../media/fondo3.jpg");
     }
 
     #fondo-mom {
-      background-image: url("../media/momento_robo_cetro.png");
+      background-image: url("../media/fondo2.jpg");
       /*filter: blur(5px);*/
 
+    }
+
+    #fondo-prod {
+      background-image: url("../media/fondo6_2.jpg");
     }
 
 /* Pagina contacto */
