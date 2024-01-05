@@ -21,31 +21,30 @@ ol li {
   padding: 0.25rem;
 }
 
-/* Pagina personajes ** */
+
+
 .padre {
-  background-image: url("../media/momento_unidos.png");
-  /*filter: blur(5px);*/
   color: black;
   font-family: 'Titillium Web', sans-serif;
 }
   
   .contenido {
     margin: 0rem 5rem 0rem 5rem;
-    padding-top: 2rem;
+    padding: 2rem 0rem 2rem 0rem;
     background-color: rgb(119, 119, 119);
     border-radius: 16px;
   }
 
   .titulo {
-    background-color: rgb(175, 175, 175);
+    background-color: ghostwhite;
     width: 100%;
   }
 
-  .pers_card {
+  .card {
     flex: 3;
     display: flex;
     flex-flow: row wrap;
-    margin: 0rem 5rem 2rem 5rem ;
+    margin: 0rem 5rem 5rem 5rem ;
     padding-bottom: 5rem;
     background-color: rgb(175, 175, 175);
     text-align: left;
@@ -65,13 +64,13 @@ ol li {
     }
 
 
-    .pers_img {
-      background-color: rgb(255, 255, 255);
+    .imagen {
+      background-color: rgb(255, 255, 255, 0.75);
       padding: 2rem;
       width: 100%;
       text-align: center;
     }
-    .pers_nombre {
+    .nombre {
       margin-left: 3rem;
       width: 100%;
       
@@ -86,12 +85,22 @@ ol li {
     }
 
 
-    .pers_descripcion {
+    .descripcion {
       margin-left: 0.5rem;
       padding: 3rem 3rem 6rem 3rem;
       flex: 2;
       border: 2px solid #8d8d8d;
       background-color: rgb(208, 208, 208, 0.5);
+    }
+
+    #fondo-pers {
+      background-image: url("../media/momento_unidos.png");
+    }
+
+    #fondo-mom {
+      background-image: url("../media/momento_robo_cetro.png");
+      /*filter: blur(5px);*/
+
     }
 
 /* Pagina contacto */
