@@ -1,4 +1,11 @@
 
+/*@media only screen and (max-width: 768px) {
+  *[data-css="css2"] {
+
+  }
+}*/
+
+
 * {
   margin: 0px;
   padding: 0px;
@@ -12,21 +19,24 @@ header {
   top: 0;
 }
 
-ul li {
-  padding: 1rem;
-  list-style: none;
-}
-ol li {
-  list-style: none;
-  padding: 0.25rem;
-}
-
-
 
 .padre {
   color: black;
   font-family: 'Titillium Web', sans-serif;
 }
+
+  ul li {
+    padding: 1rem;
+    list-style: none;
+  }
+  ol li {
+    list-style: none;
+    padding: 0.25rem;
+  }
+
+  #banner {
+    width: 100%;
+  }
   
   .contenido {
     margin: 0rem 5rem 0rem 5rem;
@@ -48,7 +58,6 @@ ol li {
     margin: 0rem 5rem 5rem 5rem ;
     padding-bottom: 5rem;
     background-color: rgb(175, 175, 175);
-    text-align: left;
     border-radius: 16px;
   }
 
@@ -98,25 +107,25 @@ ol li {
     }
 
     #fondo_inicio {
-      background-image: url("../media/fondo6.jpg");
+      background-image: url("../../media/fondo6.jpg");
     }
 
     #fondo-pers {
-      background-image: url("../media/fondo3.jpg");
+      background-image: url("../../media/fondo3.jpg");
     }
 
     #fondo-mom {
-      background-image: url("../media/fondo2.jpg");
+      background-image: url("../../media/fondo2.jpg");
       /*filter: blur(5px);*/
 
     }
 
     #fondo-prod {
-      background-image: url("../media/fondo4.jpg");
+      background-image: url("../../media/fondo4.jpg");
     }
 
     #fondo-contct {
-      background-image: url("../media/fondo8.jpg");
+      background-image: url("../../media/fondo8.jpg");
     }
 
     /* Inicio */
@@ -200,4 +209,54 @@ input, button {
 
 button {
  cursor: pointer;
+}
+
+
+@media (max-width:450px) {
+  * {
+    font-size: 60%;
+  }
+
+  #contenido_inicio {
+    padding-top: 0.5rem;
+  }
+
+  .titulo {
+    background-image: url(../../media/banner.jpg);
+  }
+
+  .card {
+    margin: 1rem 1.5rem 3rem 1.5rem;
+    height: 60%;
+    flex-flow: column wrap;
+  }
+
+  .card div {
+    width: auto;
+  }
+
+  .card_nombre {
+    margin: 1.5rem 1.5rem 0rem 1.5rem;
+    padding-bottom: 0rem;
+    border-radius: 10px;
+  }
+
+  .inicio_pers {
+    display: flex;
+    justify-content: center;
+  }
+
+  section div img {
+    height: 200px;
+    width: 100%;
+}
+
+  h1, h2, h3, h4, h5, h6, p{
+    font-size: 1rem;
+  }
+
+  #card_inicio_mom {
+    flex-flow: column nowrap;
+  }
+
 }

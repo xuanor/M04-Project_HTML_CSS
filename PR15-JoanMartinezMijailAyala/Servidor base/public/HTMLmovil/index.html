@@ -4,26 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="../JS/shadowPartial.js"></script>
-    <link rel="stylesheet" href="../CSS/CSS_WEB/estilos.css">
+    <link rel="stylesheet" href="../CSS/CSS_MOVIL/estilos.css">
     <title>Avengers | Main</title>
     <link rel="icono_web" href="../media/icono_vengadores.ico" type="image/x-icon">
 </head>
 <body>
     <header>
         <!--Cabezera y Menu-->
-        <shadow-partial data-html="../HTML/menu.part.html" data-css="../CSS/CSS_WEB/menu.part.css"></shadow-partial>
+        <shadow-partial data-html="../HTMLmovil/menu.part.html" data-css="../CSS/CSS_MOVIL/menu.part.css"></shadow-partial>
     </header>
     
     <!--Crear modelo de cajas diferente para inicio-->
 
     <div class="padre" id="fondo_inicio">
+       
         <div class="titulo">
             <h1>Inicio</h1>
         </div>
-    
-        <div class="contenido">
-            <section class="card">
-                <div class="nombre">
+
+        
+
+        <div class="contenido" id="contenido_inicio">  
+            <section class="card card_nombre">
+                <div>
                     <h2>Personajes mas votados</h2>
                 </div>
             </section>
@@ -45,8 +48,10 @@
             </section>
 
             <!--Momentos destacados-->
-            <section class="card">
-                <h2>Top 4 momentos</h2>
+            <section class="card card_nombre">
+                <div>
+                    <h2>Top 4 momentos</h2>
+                </div>
             </section>
 
             <section class="card"  id="card_inicio_mom">
@@ -72,23 +77,22 @@
             </section>
 
             <!--Productos destacados-->
-            <section class="card">
-                <h2>Top ventas</h2>
+            <section class="card card_nombre">
+                <div>
+                    <h2>Top ventas</h2>
+                </div>
             </section>
 
             <section class="card">
-                <div>
-                    <h2>Llavero Marvel Los Vengadores Logo Dorado</h2>
+                <div class="cajita">
                     <a href="productos.html#prod_1"><img src="../media/llavero.jpg" alt="llavero"></a>
                 </div>
 
-                <div>
-                    <h2>Alfombrilla para ratón XL Marvel Comics Avengers</h2>
+                <div class="cajita">
                     <a href="productos.html#prod_2"><img src="../media/alfombrilla.jpg" alt="alfombrilla"></a>
                 </div>
                 
-                <div>
-                    <h2>Bolsa De Almuerzo Marvel Vengadores Logo </h2>
+                <div class="cajita">
                     <a href="productos.html#prod_3"><img src="../media/bolsa-almuerzo.jpg" alt="bolsa-almuerzo"></a>
                 </div>
             </section>
@@ -98,7 +102,7 @@
 
     <!--Pie de pagina-->
     <footer>
-        <shadow-partial data-html="../HTML/pie.part.html" data-css="../CSS/CSS_WEB/pie.part.css"></shadow-partial>
+        <shadow-partial data-html="../HTMLmovil/pie.part.html" data-css="../CSS/CSS_MOVIL/pie.part.css"></shadow-partial>
      </footer>
 </body>
 </html>
