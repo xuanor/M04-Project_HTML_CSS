@@ -84,6 +84,10 @@ ol li {
       border: 2px solid #8d8d8d;
       background-color: rgba(208, 208, 208, 0.5);
     }
+      
+      .cajita a img {
+        height: 200px;
+      }
 
     .caja {
       margin-left: 0.5rem;
@@ -123,7 +127,7 @@ ol li {
     }
 
       .inicio_pers a img:hover {
-        height: 460px;
+        height: 470px;
       }
 
       #card_inicio_mom {
@@ -131,15 +135,62 @@ ol li {
       }
 
       .inicio_mom {
-        padding: 3rem 1rem 6rem 1rem;
+        padding: 0.5rem 0rem 10rem 0rem;
+        margin: 1rem;
         flex: 1;
+        text-align: center;
       }
 
         .inicio_mom a img {
-         height: 100px;
+          margin-bottom: 1rem;
+          height: 300px;
+          width: 90%;
+          border-radius: 12px;
         }
 
+          .inicio_mom a img:hover {
+            height: 310px;
+            width: 91%;
+          }
 
+          .inicio_mom a img:hover ~ #prueba{
+            height: 400px;
+            filter: invert(100%);
+          }
+
+
+/* Pagina producto */
+
+.cajita_boton {
+  display: flex;
+  padding-right: 5rem;
+  justify-content: right;
+  align-items: top;
+  flex: 1;
+}
+
+  .comprar {
+    margin: 0;
+    height: 2.5rem;
+    width: 5rem;
+  }
+
+    .comprar button{
+      background-color: rgb(108, 108, 108);
+      color: rgb(192, 214, 192);;
+      height: 100%;
+      width: 100%;
+      border: 1px solid #8d8d8d;
+      border-radius: 10px;
+    }
+
+    .comprar button:hover{
+        background-color:rgb(0, 140, 0);
+      }
+
+      .comprar img {
+        height: 30px;
+      }
 
 /* Pagina contacto */
 input, button {
