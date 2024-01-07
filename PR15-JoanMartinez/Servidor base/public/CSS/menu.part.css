@@ -1,7 +1,7 @@
 
 #cabezera {
     display: flex;  
-    background-image: url(../../media/fondo1.jpg);
+    background-image: url("../media/fondo1.jpg");
 }
 
     #cabezera a img{

@@ -1,11 +1,4 @@
 
-/*@media only screen and (max-width: 768px) {
-  *[data-css="css2"] {
-
-  }
-}*/
-
-
 * {
   margin: 0px;
   padding: 0px;
@@ -29,6 +22,7 @@ header {
     padding: 1rem;
     list-style: none;
   }
+
   ol li {
     list-style: none;
     padding: 0.25rem;
@@ -121,25 +115,23 @@ header {
       }
 
     #fondo_inicio {
-      background-image: url("../../media/fondo6.jpg");
+      background-image: url("../media/fondo6.jpg");
     }
 
     #fondo-pers {
-      background-image: url("../../media/fondo3.jpg");
+      background-image: url("../media/fondo3.jpg");
     }
 
     #fondo-mom {
-      background-image: url("../../media/fondo2.jpg");
-      /*filter: blur(5px);*/
-
+      background-image: url("../media/fondo2.jpg");
     }
 
     #fondo-prod {
-      background-image: url("../../media/fondo4.jpg");
+      background-image: url("../media/fondo4.jpg");
     }
 
     #fondo-contact {
-      background-image: url("../../media/fondo8.jpg");
+      background-image: url("../media/fondo8.jpg");
     }
 
     /* Inicio */
@@ -312,18 +304,19 @@ header {
 
 #card_contacto {
   flex-flow: column;
-  justify-content: center;
+  align-items: center;
 }
 
 .nombre_contacto{
   margin: 2rem 1rem 1rem 1rem;
+  width: auto;
 }
 
 .cajita_contacto {
   display: flex;
   flex-flow: column;
   width: auto;
-  background-image: url(../../media/banner.jpg);
+  background-image: url("../media/banner.jpg");
   align-items: center;
 }
 
@@ -387,7 +380,7 @@ form input {
   }
 
   .titulo {
-    background-image: url(../../media/banner.jpg);
+    background-image: url("../media/banner.jpg");
   }
 
   .card {
@@ -435,7 +428,7 @@ form input {
 
   section div img {
     height: 220px;
-}
+  }
 
   h1, h2, h3, h4, h5, h6, label, input{
     font-size: 1rem;
